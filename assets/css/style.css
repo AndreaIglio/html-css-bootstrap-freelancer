@@ -1,3 +1,12 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* utility class */
 
 .bg_blue {
@@ -40,13 +49,18 @@ border: none;
 .padd_n {
   padding: none;
 }
+
+.p_top_15 {
+  padding-top: 15px;
+}
 /* /utility class */
 
 
 /* header */
 
-header {
-
+#header_bottom {
+  padding-top : 40px;
+  padding-bottom: 90px;
 }
 
 /* navbar */
@@ -55,19 +69,16 @@ header {
 }
 
 .navbar li {
+  display: inline-block;
   padding: 0 20px;
 }
 
-.navbar span{
-  padding: 0 15px;
+.navbar a{
+  color: white;
 }
+
 
 /* /navbar */
-
-.header_jumbotron {
-padding-top : 40px;
-padding-bottom: 100px;
-}
 
 .header_icon {
   margin: 40px 0;
@@ -90,10 +101,10 @@ padding-bottom: 100px;
 /* portfolio */
 
 #portfolio {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
-.box {
+.portfolio_box {
   margin: 10px 0;
 }
 
@@ -103,7 +114,7 @@ padding-bottom: 100px;
 
 /* about */
 #about {
-padding: 40px 0;
+padding: 50px 0;
 }
 
 /* /about */
@@ -112,7 +123,7 @@ padding: 40px 0;
 /* contact */
 
 #contact {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .form-control{
@@ -129,4 +140,20 @@ padding: 40px 0;
 
 /* footer */
 
+/* footer top */
+  .footer_box {
+    padding: 30px 20px;
+  }
+
+  .footer_box a {
+    color: red;
+  }
+  /* /footer top */
+
+
+/* footer_bottom */
+#footer_bottom {
+  padding: 20px 20px;
+}
+  /* /footer_bottom */
 /* footer */
