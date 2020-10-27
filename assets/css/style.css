@@ -68,17 +68,19 @@ border: none;
   border-radius: 0;
 }
 
-.navbar li {
-  display: inline-block;
-  padding: 0 20px;
-}
 
 .navbar a{
   color: white;
   text-decoration: none;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
 
+.navbar-inverse .navbar-brand {
+  color: white;
+}
 /* /navbar */
 
 .header_icon {
