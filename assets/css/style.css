@@ -111,6 +111,12 @@ padding: 40px 0;
 #contact {
   padding: 40px 0;
 }
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
 /* /contact */
 /* /main */
 
