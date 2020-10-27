@@ -1,0 +1,97 @@
+/* utility class */
+
+.bg_blue {
+  background-color: #0f72c2;
+}
+
+
+.bg_green_blue {
+  background-color: #0fc2a7;
+}
+
+.text_c {
+  text-align: center;
+}
+
+.text_r {
+  text-align: right;
+}
+
+.text_l {
+  text-align: left;
+}
+
+.text_white {
+  color: white;
+}
+
+.right {
+  float: right;
+}
+
+.border_none {
+border: none;
+}
+
+.border_radius_none {
+  border-radius: none;
+}
+
+.padd_n {
+  padding: none;
+}
+/* /utility class */
+
+
+/* header */
+
+header {
+
+}
+
+/* navbar */
+
+.navbar li {
+  padding: 0 20px;
+}
+
+.navbar span{
+  padding: 0 15px;
+}
+
+/* /navbar */
+
+.header_jumbotron {
+padding-top : 40px;
+padding-bottom: 100px;
+}
+
+.header_icon {
+  margin: 40px 0;
+  vertical-align: middle;
+}
+
+.header_icon::after, .header_icon::before {
+
+}
+
+
+/* /header */
+
+
+
+
+
+/* main */
+
+.box {
+  margin: 10px 0;
+}
+
+/* /main */
+
+
+
+/* footer */
+
+/* footer */
