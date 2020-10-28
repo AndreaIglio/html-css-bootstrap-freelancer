@@ -222,11 +222,7 @@ position: absolute;
 top: 0px;;
 left: 0px;
 background-color: rgba(26, 188, 156, 0.8);
-transition: opacity .25s;
-}
-
-img:hover {
-  opacity: 1;
+transition: opacity .20s;
 }
 
 .overlay i {
@@ -240,7 +236,6 @@ img:hover {
 
 #portfolio .portfolio_card:hover>.overlay {
   opacity: 1;
-  overflow: hidden;
 }
 
 /* /portfolio */
@@ -278,7 +273,7 @@ img:hover {
 .footer_box i {
   color: white;
   font-size: 3em;
-  margin: 0 5px;
+  margin: 5px 5px;
 
 }
 /* /footer top */
