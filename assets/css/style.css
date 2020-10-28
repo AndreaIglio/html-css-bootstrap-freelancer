@@ -192,13 +192,55 @@ padding: 0 70px;
 #portfolio img {
   max-width: 100%;
   border-radius: 10px;
+  height:auto;
 }
 
 .portfolio_card {
-  min-height: 20px;
+
   padding: 19px;
   margin-bottom: 20px;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio .box-img {
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.overlay {
+border-radius: 10px;
+width: 100%;
+height: 100%;
+opacity: 0;
+position: absolute;
+top: 0px;;
+left: 0px;
+background-color: rgba(26, 188, 156, 0.8);
+transition: opacity .25s;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.overlay i {
+  font-size: 8em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#portfolio .portfolio_card:hover>.overlay {
+  opacity: 1;
+  overflow: hidden;
 }
 
 /* /portfolio */
