@@ -18,7 +18,7 @@ h4 {
 
 /* utility class */
 .bg_blue {
-  background-color: #0f72c2;
+  background-color: #2C3E50;
 }
 
 .bg_green_blue {
@@ -123,6 +123,7 @@ padding: 0 70px;
 .navbar-brand {
   font-weight: 600;
 }
+
 
 .nav li {
   font-weight: 500;
