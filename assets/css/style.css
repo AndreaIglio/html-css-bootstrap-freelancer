@@ -275,7 +275,14 @@ transition: opacity .20s;
   color: white;
   font-size: 2em;
   margin: 5px 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
+}
 
+.footer_box i:hover {
+  color: black;
+  background-color: white;
 }
 
 footer ul {
@@ -287,6 +294,7 @@ footer li {
   list-style:none;
   display: inline-block;
 }
+
 
 /* /footer top */
 /* footer_bottom */
